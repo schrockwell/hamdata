@@ -42,6 +42,7 @@ def get_status_table
     "QO-100_NB" => "QO-100-LIN-NB",
     "RS-44" => "RS-44-LIN",
     "SO-121" => "SO-121-FM",
+    "SO-124" => "SO-124-FM",
     "SO-50" => "SO-50-FM",
     "SONATE-2 APRS" => "SONATE-2-APRS",
     # "TO-108" => "todo",

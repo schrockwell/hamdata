@@ -159,7 +159,7 @@
     ]
   },
   "SO-121": {
-    "aliases": ["Hades-D"],
+    "aliases": ["HADES-D"],
     "transponders": [
       {
         "id": "SO-121-FM",
@@ -169,8 +169,7 @@
       }
     ]
   },
-  "SO-124": {
-    "aliases": ["Hades-R"],
+  "HADES-R (SO-124)": {
     "transponders": [
       {
         "id": "SO-124-FM",
