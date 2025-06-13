@@ -169,6 +169,17 @@
       }
     ]
   },
+  "SO-124": {
+    "aliases": ["Hades-R"],
+    "transponders": [
+      {
+        "id": "SO-124-FM",
+        "mode": "fm",
+        "downlink": { "min": 436.885, "max": 436.885 },
+        "uplink": { "min": 145.925, "max": 145.925 }
+      }
+    ]
+  },
   "SO-50": {
     "aliases": ["SAUDISAT 1C"],
     "links": [
