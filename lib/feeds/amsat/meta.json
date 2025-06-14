@@ -257,10 +257,11 @@
       }
     ]
   },
-  "MESAT1": {
+  "MO-122": {
+    "aliases": ["MESAT-1"],
     "transponders": [
       {
-        "id": "MESAT1-LIN",
+        "id": "MO-122-LIN",
         "mode": "linear",
         "inverting": true,
         "downlink": { "min": 435.81, "max": 435.84 },
@@ -281,6 +282,16 @@
         "mode": "digital",
         "downlink": { "min": 145.825, "max": 145.825 },
         "uplink": { "min": 145.825, "max": 145.825 }
+      }
+    ]
+  },
+  "HADES-ICM (SO-125)": {
+    "transponders": [
+      {
+        "id": "SO-125-FM",
+        "mode": "fm",
+        "downlink": { "min": 436.666, "max": 436.666 },
+        "uplink": { "min": 145.875, "max": 145.875 }
       }
     ]
   }

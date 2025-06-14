@@ -21,6 +21,7 @@ def get_status_table
     unknown: 'C0C0C0' # note! No # in front of this one
   }
 
+  # map of { "AMSAT OSCAR status page name" => "meta.json transponder id" }
   transponder_ids = {
     "AO-7[A]" => "AO-07-LIN-A",
     "AO-7[B]" => "AO-07-LIN-B",
@@ -30,6 +31,7 @@ def get_status_table
     # "CAS-4A" => "todo",
     # "CAS-4B" => "todo",
     # "FO-29" => "todo",
+    "HADES-ICM_(SO-125)" => "SO-125-FM",
     "IO-117" => "IO-117-DIGI",
     "IO-86" => "IO-86-FM",
     "ISS-DATA" => "ISS-APRS",
@@ -37,6 +39,7 @@ def get_status_table
     "JO-97" => "JO-97-LIN",
     "LilacSat-2" => "CAS-3H-FM",
     "MESAT1" => "MESAT1-LIN",
+    "MO-122" => "MO-122-LIN",
     # "NO-44" => "todo",
     "PO-101[FM]" => "PO-101-FM",
     "QO-100_NB" => "QO-100-LIN-NB",
