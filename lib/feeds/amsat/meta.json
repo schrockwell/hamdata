@@ -24,6 +24,24 @@
       }
     ]
   },
+  "AO-123": {
+    "aliases": ["ASRTU-1"],
+    "links": [
+      {
+        "title": "AMSAT-SE",
+        "url": "https://www.amsat.se/2024/11/29/asrtu-1-designated-asrtu-oscar-123/"
+      }
+    ],
+    "transponders": [
+      {
+        "id": "AO-123-FM",
+        "mode": "fm",
+        "downlink": { "min": 435.40, "max": 435.40 },
+        "uplink": { "min": 145.85, "max": 145.85 },
+        "note": "67.0 Hz CTCSS"
+      }
+    ]
+  },
   "AO-73": {
     "aliases": ["FUNcube-1"],
     "links": [
@@ -170,6 +188,11 @@
     ]
   },
   "HADES-R (SO-124)": {
+    "aliases": ["HADES-R"],
+    "links": {
+      "title": "AMSAT-SE", 
+      "url": "https://www.amsat.se/2025/02/24/hades-r-designated-spain-oscar-124-so-124/"
+    },
     "transponders": [
       {
         "id": "SO-124-FM",
@@ -286,6 +309,11 @@
     ]
   },
   "HADES-ICM (SO-125)": {
+    "aliases": ["HADES-ICM"],
+    "links": {
+      "title": "AMSAT-SE", 
+      "url": "https://www.amsat.se/2025/06/01/amsat-eas-hades-icm-now-so-125/"
+    },
     "transponders": [
       {
         "id": "SO-125-FM",
