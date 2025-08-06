@@ -294,5 +294,26 @@
         "uplink": { "min": 145.875, "max": 145.875 }
       }
     ]
+  },
+  "FO-29": {
+    "transponders": [
+      {
+        "id": "FO-29-LIN",
+        "mode": "linear",
+        "downlink": { "min": 435.8, "max": 435.9 },
+        "uplink": { "min": 145.9, "max": 146.0 }
+      }
+    ]
+  },
+  "AO-123": {
+    "transponders": [
+      {
+        "id": "AO-123-FM",
+        "mode": "fm",
+        "downlink": { "min": 435.4, "max": 435.4 },
+        "uplink": { "min": 145.85, "max": 145.85 },
+        "note": "67.0 Hz CTCSS"
+      }
+    ]
   }
 }

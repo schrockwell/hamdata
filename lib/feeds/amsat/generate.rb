@@ -23,6 +23,7 @@ def get_status_table
 
   # map of { "AMSAT OSCAR status page name" => "meta.json transponder id" }
   transponder_ids = {
+    "AO-123" => "AO-123-FM",
     "AO-7[A]" => "AO-07-LIN-A",
     "AO-7[B]" => "AO-07-LIN-B",
     "AO-73" => "AO-73-LIN",
@@ -30,7 +31,7 @@ def get_status_table
     # "BHUTAN-1" => "todo",
     # "CAS-4A" => "todo",
     # "CAS-4B" => "todo",
-    # "FO-29" => "todo",
+    "FO-29" => "FO-29-LIN",
     "HADES-ICM_(SO-125)" => "SO-125-FM",
     "IO-117" => "IO-117-DIGI",
     "IO-86" => "IO-86-FM",
