@@ -158,27 +158,6 @@
       }
     ]
   },
-  "SO-121": {
-    "aliases": ["HADES-D"],
-    "transponders": [
-      {
-        "id": "SO-121-FM",
-        "mode": "fm",
-        "downlink": { "min": 436.663, "max": 436.663 },
-        "uplink": { "min": 145.875, "max": 145.875 }
-      }
-    ]
-  },
-  "HADES-R (SO-124)": {
-    "transponders": [
-      {
-        "id": "SO-124-FM",
-        "mode": "fm",
-        "downlink": { "min": 436.885, "max": 436.885 },
-        "uplink": { "min": 145.925, "max": 145.925 }
-      }
-    ]
-  },
   "SO-50": {
     "aliases": ["SAUDISAT 1C"],
     "links": [
@@ -194,42 +173,6 @@
         "downlink": { "min": 436.795, "max": 436.795 },
         "uplink": { "min": 145.85, "max": 145.85 },
         "note": "67.0 Hz CTCSS; 10-minute timer armed with 2-second carrier of 74.4 Hz"
-      }
-    ]
-  },
-  "XW-2B": {
-    "aliases": ["CAS-3B"],
-    "links": [
-      {
-        "title": "AMSAT",
-        "url": "https://www.amsat.org/wordpress/wp-content/uploads/2015/09/XW-2CAS-3-Sats.pdf"
-      }
-    ],
-    "transponders": [
-      {
-        "id": "XW-2B-LIN",
-        "mode": "linear",
-        "inverting": true,
-        "downlink": { "min": 145.73, "max": 145.75 },
-        "uplink": { "min": 435.09, "max": 435.11 }
-      }
-    ]
-  },
-  "XW-2C": {
-    "aliases": ["CAS-3C"],
-    "links": [
-      {
-        "title": "AMSAT",
-        "url": "https://www.amsat.org/wordpress/wp-content/uploads/2015/09/XW-2CAS-3-Sats.pdf"
-      }
-    ],
-    "transponders": [
-      {
-        "id": "XW-2C-LIN",
-        "mode": "linear",
-        "inverting": true,
-        "downlink": { "min": 145.795, "max": 145.815 },
-        "uplink": { "min": 435.15, "max": 435.17 }
       }
     ]
   },
@@ -285,16 +228,6 @@
       }
     ]
   },
-  "HADES-ICM (SO-125)": {
-    "transponders": [
-      {
-        "id": "SO-125-FM",
-        "mode": "fm",
-        "downlink": { "min": 436.666, "max": 436.666 },
-        "uplink": { "min": 145.875, "max": 145.875 }
-      }
-    ]
-  },
   "FO-29": {
     "transponders": [
       {
@@ -314,6 +247,65 @@
         "downlink": { "min": 435.4, "max": 435.4 },
         "uplink": { "min": 145.85, "max": 145.85 },
         "note": "67.0 Hz CTCSS"
+      }
+    ]
+  },
+  "SO-131": {
+    "aliases": ["UNNE-1B"],
+    "transponders": [
+      {
+        "id": "SO-131-FM",
+        "mode": "fm",
+        "downlink": { "min": 436.888, "max": 436.888 },
+        "uplink": { "min": 145.925, "max": 145.925 }
+      }
+    ]
+  },
+  "SO-132": {
+    "aliases": ["HADES-L"],
+    "transponders": [
+      {
+        "id": "SO-132-FM",
+        "mode": "fm",
+        "downlink": { "min": 436.665, "max": 436.665 },
+        "uplink": { "min": 29.472, "max": 29.472 },
+        "note": "USB uplink on 10 m, FM downlink"
+      }
+    ]
+  },
+  "SO-127": {
+    "aliases": ["HADES-SA", "SpinnyONE"],
+    "transponders": [
+      {
+        "id": "SO-127-DIGI",
+        "mode": "digital",
+        "downlink": { "min": 436.875, "max": 436.875 },
+        "uplink": { "min": 145.875, "max": 145.875 },
+        "note": "FSK BBS: 200 bps uplink, 800 bps downlink"
+      }
+    ]
+  },
+  "CO-128": {
+    "aliases": ["MARMOTSat"],
+    "transponders": [
+      {
+        "id": "CO-128-DIGI",
+        "mode": "digital",
+        "downlink": { "min": 145.875, "max": 145.875 },
+        "uplink": { "min": 145.875, "max": 145.875 },
+        "note": "AX.100 FSK digipeater"
+      }
+    ]
+  },
+  "AO-129": {
+    "aliases": ["ERMINAZ-2U"],
+    "transponders": [
+      {
+        "id": "AO-129-DIGI",
+        "mode": "digital",
+        "downlink": { "min": 435.9, "max": 435.9 },
+        "uplink": { "min": 435.9, "max": 435.9 },
+        "note": "9k6 GMSK digipeater"
       }
     ]
   }
